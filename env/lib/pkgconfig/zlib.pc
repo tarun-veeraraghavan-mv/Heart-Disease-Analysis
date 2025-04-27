@@ -1,0 +1,13 @@
+prefix=/Users/vt_op/Desktop/cancer-analysi/env
+exec_prefix=/Users/vt_op/Desktop/cancer-analysi/env
+libdir=/Users/vt_op/Desktop/cancer-analysi/env/lib
+sharedlibdir=/Users/vt_op/Desktop/cancer-analysi/env/lib
+includedir=/Users/vt_op/Desktop/cancer-analysi/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
